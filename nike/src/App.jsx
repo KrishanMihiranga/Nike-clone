@@ -1,29 +1,30 @@
+import{Hero,PopularProducts,CustomerReviews,Footer,Service,SpecialOffers,Subscribe,SuperQuality} from './assets/sections/index.js'
 const App = () =>(
   <main className="relative">
-    Nav
+    {/* <Nav/> */}
     <section className="xl:padding-1 wide:padding-r padding-b">
-      Hero
+      <Hero/>
     </section>
     <section className="padding">
-      PopularProducts
+      <PopularProducts/>
     </section>
     <section className="padding">
-      SuperQuality
+      <SuperQuality/>
     </section>
     <section className="py-10 padding-x">
-      Services
+      <Service/>
     </section>
     <section className="padding">
-      SpecialOffers
+      <SpecialOffers/>
     </section>
     <section className="bg-pale-blue padding">
-      CustomerReviews
+      <CustomerReviews/>
     </section>
     <section className="w-full py-16 padding-x sm:py-32">
-      Subscribe
+      <Subscribe/>
     </section>
     <section className="pb-8 bg-black padding-x padding-t">
-      Footer
+      <Footer/>
     </section>
   </main>
 );
